@@ -1,0 +1,28 @@
+﻿<Application x:Class="UP2022Ex.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:UP2022Ex"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <Style TargetType="TextBlock">
+            <Style.Setters>
+                <Setter Property="FontFamily" Value="Monotype Corsiva"/>
+                <Setter Property="FontSize" Value="14"/>
+            </Style.Setters>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="FontFamily" Value="Monotype Corsiva"/>
+            </Style.Setters>
+        </Style>
+
+        <Style TargetType="Button">
+            <Style.Setters>
+                <Setter Property="Background" Value="#46B29D"/>
+            </Style.Setters>
+        </Style>
+
+    </Application.Resources>
+</Application>
